@@ -1,0 +1,10 @@
+^D:\MSC COMPUTER SCIENCE\SUMMER PROJECT\NEW METHOD OF DEV GPT\TARGET\DEBUG\BUILD\RDKAFKA-SYS-AEABAC192401CE30\OUT\BUILD\CMAKEFILES\7C1C2D1728E3ED4BC534940C1595F0CD\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

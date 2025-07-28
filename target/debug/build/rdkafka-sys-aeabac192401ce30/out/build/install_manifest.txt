@@ -1,0 +1,13 @@
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/cmake/RdKafka/RdKafkaConfig.cmake
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/cmake/RdKafka/RdKafkaConfigVersion.cmake
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/cmake/RdKafka/FindLZ4.cmake
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/cmake/RdKafka/RdKafkaTargets.cmake
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/cmake/RdKafka/RdKafkaTargets-debug.cmake
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/share/licenses/librdkafka/LICENSES.txt
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/pkgconfig/rdkafka-static.pc
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/rdkafka.lib
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/include/librdkafka/rdkafka.h
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/include/librdkafka/rdkafka_mock.h
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/pkgconfig/rdkafka++-static.pc
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/lib/rdkafka++.lib
+D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/include/librdkafka/rdkafkacpp.h
