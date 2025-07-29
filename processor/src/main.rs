@@ -4,6 +4,16 @@ use rdkafka::Message;
 use sqlx::{PgPool, query};
 use std::env;
 use uuid::Uuid;
+use serde::Deserialize;
+use time::OffsetDateTime;
+
+
+#[derive(Deserialize, Debug)]
+struct SensorReading {
+    sensorId: String,
+    timestamp: String, // You can parse this into chrono::DateTime<Utc> if you want
+    value: f64,
+}
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -31,24 +41,34 @@ async fn main() -> anyhow::Result<()> {
                 let payload = msg.payload_view::<str>().unwrap_or(Ok("")).unwrap_or("");
                 println!("Received: {}", payload);
 
-                // For now, use dummy values (parse real payload later!)
-                let sensor_id = Uuid::parse_str("11111111-1111-1111-1111-111111111111").unwrap(); // TODO: parse actual sensor_id from payload
-                let value: f64 = 22.5; // TODO: parse value from payload
+                if let Ok(reading) = serde_json::from_str::<SensorReading>(payload) {
+                    // Parse UUID and (optionally) timestamp
+                    let sensor_id = Uuid::parse_str(&reading.sensorId)?;
 
-                let res = query!(
-                    "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)
-                     VALUES ($1, $2, NOW(), $3, $4, NOW())",
-                    Uuid::new_v4(),
-                    sensor_id,
-                    value,
-                    value
-                )
-                .execute(&db)
-                .await;
+                    // NEW: Parse timestamp from the string in JSON
+                    let parsed_time = OffsetDateTime::parse(&reading.timestamp, &time::format_description::well_known::Rfc3339)?;
 
-                match res {
-                    Ok(_) => println!("Inserted into DB!"),
-                    Err(e) => eprintln!("DB insert error: {:?}", e),
+                    let value = reading.value;
+                    // Parse timestamp string into chrono::DateTime<Utc> if needed
+
+                    let res = query!(
+                        "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)
+                         VALUES ($1, $2, $3, $4, $5, NOW())",
+                        Uuid::new_v4(),
+                        sensor_id,
+                        parsed_time,
+                        value,
+                        value
+                    )
+                    .execute(&db)
+                    .await;
+
+                    match res {
+                        Ok(_) => println!("Inserted into DB!"),
+                        Err(e) => eprintln!("DB insert error: {:?}", e),
+                    }
+                } else {
+                    eprintln!("Failed to parse payload as JSON: {:?}", payload);
                 }
             }
             Err(e) => eprintln!("Kafka error: {:?}", e),

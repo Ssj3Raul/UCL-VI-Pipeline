@@ -2,24 +2,14 @@ cargo:rerun-if-env-changed=LIBZ_SYS_STATIC
 cargo:rerun-if-changed=build.rs
 cargo:rerun-if-changed=zng/cmake.rs
 cargo:rerun-if-changed=zng/cc.rs
-note, vcpkg did not find zlib: Could not find Vcpkg tree: No vcpkg installation found. Set the VCPKG_ROOT environment variable or run 'vcpkg integrate install'
+note, vcpkg did not find zlib: Could not look up details of packages in vcpkg tree could not read status file updates dir: The system cannot find the path specified. (os error 3)
 OPT_LEVEL = Some(0)
 TARGET = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=VCINSTALLDIR
-VCINSTALLDIR = None
-cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
-VSTEL_MSBuildProjectFullPath = None
-cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
-VSCMD_ARG_VCVARS_SPECTRE = None
-cargo:rerun-if-env-changed=WindowsSdkDir
-WindowsSdkDir = None
-cargo:rerun-if-env-changed=WindowsSDKVersion
-WindowsSDKVersion = None
-cargo:rerun-if-env-changed=LIB
-LIB = None
-PATH = Some(D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\deps;D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug;C:\Users\raulk\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;D:\Downloads\ApacheBench\Apache24\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Docker\Docker\resources\bin;C:\Installers\windows-amd64;C:\Program Files\PostgreSQL\17\pgAdmin 4\runtime;C:\Users\raulk\.cargo\bin;C:\Users\raulk\AppData\Local\Microsoft\WindowsApps;C:\Users\raulk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\raulk\AppData\Roaming\npm;C:\Users\raulk\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\raulk\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
-cargo:rerun-if-env-changed=INCLUDE
-INCLUDE = None
+VCINSTALLDIR = Some(C:\Program Files\Microsoft Visual Studio\2022\Community\VC\)
+cargo:rerun-if-env-changed=VSCMD_ARG_TGT_ARCH
+VSCMD_ARG_TGT_ARCH = Some(x64)
+PATH = Some(C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\deps;C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug;C:\Users\raulk\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\VCPackages;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TeamFoundation\Team Explorer;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\bin\Roslyn;C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.8 Tools\x64\;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files\Microsoft Visual Studio\2022\Community\Team Tools\DiagnosticsHub\Collector;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\Llvm\x64\bin;C:\Program Files (x86)\Windows Kits\10\bin\10.0.26100.0\\x64;C:\Program Files (x86)\Windows Kits\10\bin\\x64;C:\Program Files\Microsoft Visual Studio\2022\Community\\MSBuild\Current\Bin\amd64;C:\Windows\Microsoft.NET\Framework64\v4.0.30319;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\Tools\;C:\Python313\Scripts\;C:\Python313\;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\dotnet\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Users\raulk\AppData\Local\Programs\Python\Python312;C:\Users\raulk\AppData\Local\Programs\Python\Python312\Scripts;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Kubernetes\Minikube;C:\Program Files\Kubernetes\Minikube;C:\Program Files\CMake\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\raulk\.cargo\bin;C:\Users\raulk\AppData\Local\Microsoft\WindowsApps;C:\Users\raulk\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\raulk\AppData\Roaming\npm;C:\Program Files\Kubernetes\Minikube;;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja;C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\VC\Linux\bin\ConnectionManagerExe;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\vcpkg;C:\Users\raulk\.rustup\toolchains\stable-x86_64-pc-windows-msvc\bin)
 HOST = Some(x86_64-pc-windows-msvc)
 cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
 CC_x86_64-pc-windows-msvc = None
@@ -74,9 +64,8 @@ cargo:rerun-if-env-changed=ARFLAGS_x86_64_pc_windows_msvc
 ARFLAGS_x86_64_pc_windows_msvc = None
 cargo:rerun-if-env-changed=ARFLAGS_x86_64-pc-windows-msvc
 ARFLAGS_x86_64-pc-windows-msvc = None
-cargo:rustc-link-search=native=C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.43.34808\atlmfc\lib\x64
 cargo:rustc-link-lib=static=z
-cargo:rustc-link-search=native=D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\libz-sys-5d1a15fcd7559bf8\out\lib
-cargo:root=D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\libz-sys-5d1a15fcd7559bf8\out
-cargo:rustc-link-search=native=D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\libz-sys-5d1a15fcd7559bf8\out\lib
-cargo:include=D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\libz-sys-5d1a15fcd7559bf8\out/include
+cargo:rustc-link-search=native=C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\libz-sys-5d1a15fcd7559bf8\out\lib
+cargo:root=C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\libz-sys-5d1a15fcd7559bf8\out
+cargo:rustc-link-search=native=C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\libz-sys-5d1a15fcd7559bf8\out\lib
+cargo:include=C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\libz-sys-5d1a15fcd7559bf8\out/include

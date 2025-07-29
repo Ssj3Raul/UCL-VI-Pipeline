@@ -1,37 +1,41 @@
 use rdkafka::config::ClientConfig;
-use rdkafka::producer::Producer;
-use rdkafka::producer::{FutureProducer, FutureRecord};
+use rdkafka::producer::{FutureProducer, FutureRecord, Producer};
 use std::env;
 use std::time::Duration;
+use serde_json::json;
 
 #[tokio::main]
 async fn main() {
-    // Load .env variables (if present)
     dotenv::dotenv().ok();
 
-    // Read Kafka connection info from env
-    let kafka_broker = env::var("KAFKA_BROKER").unwrap_or_else(|_| "localhost:9092".to_string());
-    let kafka_topic = env::var("KAFKA_TOPIC").unwrap_or_else(|_| "test-topic".to_string());
+    let kafka_broker = env::var("KAFKA_BROKER").unwrap_or("localhost:9092".to_string());
+    let kafka_topic = env::var("KAFKA_TOPIC").unwrap_or("test-topic".to_string());
+    let sensor_id = env::var("SENSOR_ID").unwrap_or("11111111-1111-1111-1111-111111111111".to_string());
+    let value = env::var("SENSOR_VALUE").unwrap_or("23.7".to_string()).parse::<f64>().unwrap_or(23.7);
 
-    println!("Connecting to Kafka at: {}", kafka_broker);
-    println!("Publishing to topic: {}", kafka_topic);
+    // Current time in RFC3339 format
+    let timestamp = chrono::Utc::now().to_rfc3339();
 
-    // Create the producer
+    // Build the payload as a JSON object
+    let payload = json!({
+        "sensorId": sensor_id,
+        "timestamp": timestamp,
+        "value": value
+    }).to_string();
+
     let producer: FutureProducer = ClientConfig::new()
         .set("bootstrap.servers", &kafka_broker)
         .create()
         .expect("Producer creation error");
 
-    // Payload to send
-    let payload = r#"{"sensor": "Room101", "value": 22.5}"#;
-    let record = FutureRecord::<(), _>::to(&kafka_topic).payload(payload);
+    let record = FutureRecord::to(&kafka_topic)
+        .payload(&payload)
+        .key(&());
 
-    // Send record and handle result
     match producer.send(record, Duration::from_secs(0)).await {
         Ok(delivery) => println!("Delivered: {:?}", delivery),
         Err((e, _)) => eprintln!("Failed to deliver: {:?}", e),
     }
 
-    // Flush to make sure all messages are sent (best practice if you later send >1 message)
     let _ = producer.flush(Duration::from_secs(1));
 }

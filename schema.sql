@@ -38,3 +38,6 @@ CREATE TABLE reading (
     value        DOUBLE PRECISION,
     createdAt    TIMESTAMPTZ NOT NULL DEFAULT NOW()
 );
+
+SELECT * FROM sensor;
+INSERT INTO sensor (id, identifier, measuring, unit) VALUES ('11111111-1111-1111-1111-111111111111', 'Room101', 'temperature', 'C');

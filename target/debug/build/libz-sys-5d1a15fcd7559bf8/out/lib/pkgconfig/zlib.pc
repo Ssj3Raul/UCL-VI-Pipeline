@@ -1,4 +1,4 @@
-prefix=D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\libz-sys-5d1a15fcd7559bf8\out
+prefix=C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\libz-sys-5d1a15fcd7559bf8\out
 exec_prefix=@exec_prefix@
 libdir=${prefix}/lib
 sharedlibdir=@sharedlibdir@
