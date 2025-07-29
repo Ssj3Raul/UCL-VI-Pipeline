@@ -37,6 +37,8 @@ docker-compose up -d
 ###3. Create the Database Schema
 
 docker exec -it iot-postgres psql -U vi_user vi_graphs
+docker cp schema.sql iot-postgres:/schema.sql
+
 # Inside psql prompt:
 \i /schema.sql
 # Then exit psql:
