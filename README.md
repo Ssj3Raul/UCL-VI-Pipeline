@@ -34,7 +34,7 @@ cd robust-iot-pipeline
 
 docker-compose up -d
 
-###3. Create the Database Schema
+###3. Create the Database Schema and setup fake sensor
 
 docker cp schema.sql iot-postgres:/schema.sql
 
@@ -42,6 +42,11 @@ docker exec -it iot-postgres psql -U vi_user vi_graphs
 
 # Inside psql prompt:
 \i /schema.sql
+
+SELECT * FROM sensor
+INSERT INTO sensor (id, identifier, measuring, unit)
+VALUES ('11111111-1111-1111-1111-111111111111', 'Room101', 'temperature', 'C');
+
 # Then exit psql:
 \q
 
