@@ -36,8 +36,9 @@ docker-compose up -d
 
 ###3. Create the Database Schema
 
-docker exec -it iot-postgres psql -U vi_user vi_graphs
 docker cp schema.sql iot-postgres:/schema.sql
+
+docker exec -it iot-postgres psql -U vi_user vi_graphs
 
 # Inside psql prompt:
 \i /schema.sql
@@ -60,3 +61,7 @@ cargo run --bin collector
 
 docker exec -it iot-postgres psql -U vi_user vi_graphs
 SELECT * FROM reading;
+
+###Sometimes the cargo enviornment gets buggy, do the floowing to clean it:
+
+cargo clean
