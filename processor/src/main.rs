@@ -1,19 +1,12 @@
+mod normalisation;
+use crate::normalisation::{NormalisedReading, normalise_reading};
 use rdkafka::config::ClientConfig;
 use rdkafka::consumer::{Consumer, StreamConsumer};
 use rdkafka::Message;
 use sqlx::{PgPool, query};
 use std::env;
 use uuid::Uuid;
-use serde::Deserialize;
-use time::OffsetDateTime;
-
-
-#[derive(Deserialize, Debug)]
-struct SensorReading {
-    sensorId: String,
-    timestamp: String, // You can parse this into chrono::DateTime<Utc> if you want
-    value: f64,
-}
+use chrono::{DateTime, Utc};
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -40,32 +33,52 @@ async fn main() -> anyhow::Result<()> {
             Ok(msg) => {
                 let payload = msg.payload_view::<str>().unwrap_or(Ok("")).unwrap_or("");
                 println!("Received: {}", payload);
+                
 
-                if let Ok(reading) = serde_json::from_str::<SensorReading>(payload) {
-                    // Parse UUID and (optionally) timestamp
-                    let sensor_id = Uuid::parse_str(&reading.sensorId)?;
+                // Try to parse *any* JSON (messy or clean)
+                if let Ok(raw_json) = serde_json::from_str::<serde_json::Value>(payload) {
+                    match normalisation::normalise_reading(&raw_json) {
+                        Ok(reading) => {
+                            println!("Normalised reading: {:?}", reading);
 
-                    // NEW: Parse timestamp from the string in JSON
-                    let parsed_time = OffsetDateTime::parse(&reading.timestamp, &time::format_description::well_known::Rfc3339)?;
+                            // Lookup sensorId in the sensor table
+                            let sensor_row = sqlx::query!(
+                                "SELECT id FROM sensor WHERE identifier = $1 AND measuring = $2",
+                                &reading.identifier,
+                                &reading.measuring
+                            )
+                            .fetch_optional(&db)
+                            .await?;
 
-                    let value = reading.value;
-                    // Parse timestamp string into chrono::DateTime<Utc> if needed
+                            if let Some(record) = sensor_row {
+                                let sensor_id = record.id;
+                                let val = reading.value.unwrap_or(0.0);
 
-                    let res = query!(
-                        "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)
-                         VALUES ($1, $2, $3, $4, $5, NOW())",
-                        Uuid::new_v4(),
-                        sensor_id,
-                        parsed_time,
-                        value,
-                        value
-                    )
-                    .execute(&db)
-                    .await;
+                                let res = query!(
+                                    "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)
+                                     VALUES ($1, $2, $3, $4, $5, NOW())",
+                                    Uuid::new_v4(),
+                                    sensor_id,
+                                    reading.timestamp,
+                                    val, // rawValue
+                                    val  // value
+                                )
+                                .execute(&db)
+                                .await;
 
-                    match res {
-                        Ok(_) => println!("Inserted into DB!"),
-                        Err(e) => eprintln!("DB insert error: {:?}", e),
+                                match res {
+                                    Ok(_) => println!("Inserted into DB!"),
+                                    Err(e) => eprintln!("DB insert error: {:?}", e),
+                                }
+                            } else {
+                                eprintln!(
+                                    "Sensor not found in DB for identifier: {}, measuring: {}",
+                                    &reading.identifier, &reading.measuring
+                                );
+                                // Optionally: alert, skip, or handle dead-letter queue here
+                            }
+                        }
+                        Err(e) => eprintln!("Normalisation error: {:?}", e),
                     }
                 } else {
                     eprintln!("Failed to parse payload as JSON: {:?}", payload);

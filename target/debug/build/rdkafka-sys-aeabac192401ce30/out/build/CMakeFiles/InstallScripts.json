@@ -1,9 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/raulk/Desktop/UCL diss/UCL-VI-Pipeline/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/cmake_install.cmake",
-		"C:/Users/raulk/Desktop/UCL diss/UCL-VI-Pipeline/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/src/cmake_install.cmake",
-		"C:/Users/raulk/Desktop/UCL diss/UCL-VI-Pipeline/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/src-cpp/cmake_install.cmake"
+		"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/cmake_install.cmake",
+		"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/src/cmake_install.cmake",
+		"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/src-cpp/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\CMakeFiles\9bbf1120412ac2100c2f34ea19ee97c2\INSTALL_force.rule">
+    <CustomBuild Include="D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\CMakeFiles\63523422c809a21868067d1e5ab54919\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2D89BDD2-1C71-310F-ADB5-56F3A1C373BD}</UniqueIdentifier>
+      <UniqueIdentifier>{D7A9F46E-ACBF-346C-950F-D806626D92AF}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

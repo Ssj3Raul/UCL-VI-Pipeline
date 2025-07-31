@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ECA3F5CF-9801-3C12-94E0-01893617002E}</ProjectGuid>
+    <ProjectGuid>{8A994D4B-EC2E-3229-916E-EB905647C4D5}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>INSTALL</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -125,7 +125,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\CMakeFiles\9bbf1120412ac2100c2f34ea19ee97c2\INSTALL_force.rule">
+    <CustomBuild Include="D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\CMakeFiles\63523422c809a21868067d1e5ab54919\INSTALL_force.rule">
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
@@ -138,7 +138,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
@@ -153,7 +153,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
@@ -168,7 +168,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
       <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
@@ -183,21 +183,21 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\src-cpp\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</VerifyInputsAndOutputsExist>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\ZERO_CHECK.vcxproj">
-      <Project>{A15D9CE7-B5C9-3A67-8791-4ACDAFC7CE95}</Project>
+    <ProjectReference Include="D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\ZERO_CHECK.vcxproj">
+      <Project>{518A94FD-E45F-3EDF-896C-8BBE7A96BF1D}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\raulk\Desktop\UCL diss\UCL-VI-Pipeline\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\ALL_BUILD.vcxproj">
-      <Project>{4CA6F079-3F10-3E34-A75F-018CB95ADFE0}</Project>
+    <ProjectReference Include="D:\MSc Computer Science\Summer Project\new method of dev gpt\target\debug\build\rdkafka-sys-aeabac192401ce30\out\build\ALL_BUILD.vcxproj">
+      <Project>{8A947F7F-BE38-3B78-B7C1-AF562DD7E578}</Project>
       <Name>ALL_BUILD</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
