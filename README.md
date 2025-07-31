@@ -19,6 +19,8 @@ A modular Rust-based pipeline for ingesting, processing, and storing IoT sensor 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - [Rust](https://rustup.rs/)
 - (Recommended) [Git](https://git-scm.com/) or you can unzip the provided folder
+- Cmake
+- mosquitto
 
 ---
 
