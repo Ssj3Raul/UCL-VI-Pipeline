@@ -62,10 +62,14 @@ pub fn normalise_reading(raw: &Value) -> Result<NormalisedReading, String> {
         .unwrap_or_else(|| "".to_string());
 
     // 4. Parse value to f64 if possible
-    let value = match value_type {
-        IotFieldType::Number => raw.get("value").and_then(|v| v.as_f64()),
-        IotFieldType::Boolean => raw.get("value").and_then(|v| v.as_bool()).map(|b| b as i32 as f64),
-        IotFieldType::String => None,
+    let value = match raw.get("value") {
+        Some(v) => match v {
+            Value::Number(n) => n.as_f64(),
+            Value::String(s) => s.parse::<f64>().ok(),
+            Value::Bool(b) => Some(if *b { 1.0 } else { 0.0 }),
+            _ => None
+        },
+        None => None
     };
 
     // 5. Parse timestamp (RFC3339 preferred, fallback to now)

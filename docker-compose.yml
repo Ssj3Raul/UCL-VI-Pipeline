@@ -34,6 +34,12 @@ services:
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     ports:
       - "9092:9092"
+  
+  kafka-init:
+    image: bitnami/kafka:latest
+    depends_on:
+      - kafka
+    entrypoint: [ "sh", "-c", "sleep 15 && /opt/bitnami/kafka/bin/kafka-topics.sh --create --if-not-exists --topic test-topic --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1" ]
 
 volumes:
   pgdata:

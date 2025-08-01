@@ -36,22 +36,22 @@ async fn main() {
     loop {
         match eventloop.poll().await {
             Ok(Event::Incoming(Packet::Publish(publish))) => {
-                let msg = match std::str::from_utf8(&publish.payload) {
-                    Ok(s) => s.to_string(),
-                    Err(_) => {
-                        eprintln!("Invalid UTF-8 in MQTT payload!");
-                        continue;
-                    }
-                };
+                println!("MQTT RAW BYTES: {:?}", publish.payload);
 
-                println!("Received MQTT message: {:?}", msg);
+                // For debugging: print as string if valid UTF-8
+                if let Ok(msg) = std::str::from_utf8(&publish.payload) {
+                    println!("Received MQTT message: {:?}", msg);
+                } else {
+                    println!("Received MQTT message: <invalid UTF-8>");
+                }
 
+                // Forward raw bytes to Kafka!
                 let record = FutureRecord::to(&kafka_topic)
-                    .payload(&msg)
-                    .key(&());
+                    .payload(publish.payload.as_ref())
+                    .key(&[]);
 
-                println!("FORWARDING TO KAFKA (RAW): [{}]", msg);
-                
+                println!("FORWARDING TO KAFKA (RAW): {:?}", publish.payload);
+
                 match producer.send(record, Duration::from_secs(0)).await {
                     Ok(delivery) => println!("Delivered to Kafka: {:?}", delivery),
                     Err((e, _)) => eprintln!("Failed to deliver to Kafka: {:?}", e),

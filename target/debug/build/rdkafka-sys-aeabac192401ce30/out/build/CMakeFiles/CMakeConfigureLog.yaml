@@ -97,7 +97,7 @@ events:
       The output was:
       0
       MSBuild version 17.13.9+e0f243f1e for .NET Framework
-      Build started 31/07/2025 18:38:58.
+      Build started 01/08/2025 18:31:15.
       
       Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -818,7 +818,7 @@ events:
       The output was:
       0
       MSBuild version 17.13.9+e0f243f1e for .NET Framework
-      Build started 31/07/2025 18:38:58.
+      Build started 01/08/2025 18:31:16.
       
       Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\4.1.0-rc3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -847,7 +847,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.82
+      Time Elapsed 00:00:00.87
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1198,8 +1198,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-qqk7rl"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-qqk7rl"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-o7qcdb"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-o7qcdb"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -1207,37 +1207,37 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-qqk7rl'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-o7qcdb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e355c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74b02.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:00.
+        Build started 01/08/2025 18:31:17.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqk7rl\\cmTC_e355c.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7qcdb\\cmTC_74b02.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e355c.dir\\Debug\\".
+          Creating directory "cmTC_74b02.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqk7rl\\Debug\\".
-          Creating directory "cmTC_e355c.dir\\Debug\\cmTC_e355c.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7qcdb\\Debug\\".
+          Creating directory "cmTC_74b02.dir\\Debug\\cmTC_74b02.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e355c.dir\\Debug\\cmTC_e355c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e355c.dir\\Debug\\cmTC_e355c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_74b02.dir\\Debug\\cmTC_74b02.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_74b02.dir\\Debug\\cmTC_74b02.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e355c.dir\\Debug\\\\" /Fd"cmTC_e355c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_74b02.dir\\Debug\\\\" /Fd"cmTC_74b02.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqk7rl\\Debug\\cmTC_e355c.exe" /INCREMENTAL /ILK:"cmTC_e355c.dir\\Debug\\cmTC_e355c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-qqk7rl/Debug/cmTC_e355c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-qqk7rl/Debug/cmTC_e355c.lib" /MACHINE:X64  /machine:x64 cmTC_e355c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_e355c.vcxproj -> D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqk7rl\\Debug\\cmTC_e355c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7qcdb\\Debug\\cmTC_74b02.exe" /INCREMENTAL /ILK:"cmTC_74b02.dir\\Debug\\cmTC_74b02.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-o7qcdb/Debug/cmTC_74b02.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-o7qcdb/Debug/cmTC_74b02.lib" /MACHINE:X64  /machine:x64 cmTC_74b02.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_74b02.vcxproj -> D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7qcdb\\Debug\\cmTC_74b02.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_e355c.dir\\Debug\\cmTC_e355c.tlog\\unsuccessfulbuild".
-          Touching "cmTC_e355c.dir\\Debug\\cmTC_e355c.tlog\\cmTC_e355c.lastbuildstate".
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qqk7rl\\cmTC_e355c.vcxproj" (default targets).
+          Deleting file "cmTC_74b02.dir\\Debug\\cmTC_74b02.tlog\\unsuccessfulbuild".
+          Touching "cmTC_74b02.dir\\Debug\\cmTC_74b02.tlog\\cmTC_74b02.lastbuildstate".
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o7qcdb\\cmTC_74b02.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.55
+        Time Elapsed 00:00:00.63
         
       exitCode: 0
   -
@@ -1277,8 +1277,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-oqevy2"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-oqevy2"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-cnodqh"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-cnodqh"
     cmakeVariables:
       CMAKE_CXX_FLAGS: " -nologo -MD -Brepro"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
@@ -1287,37 +1287,37 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-oqevy2'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-cnodqh'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1ad24.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_354ce.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:00.
+        Build started 01/08/2025 18:31:18.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqevy2\\cmTC_1ad24.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnodqh\\cmTC_354ce.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_1ad24.dir\\Debug\\".
+          Creating directory "cmTC_354ce.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqevy2\\Debug\\".
-          Creating directory "cmTC_1ad24.dir\\Debug\\cmTC_1ad24.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnodqh\\Debug\\".
+          Creating directory "cmTC_354ce.dir\\Debug\\cmTC_354ce.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_1ad24.dir\\Debug\\cmTC_1ad24.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_1ad24.dir\\Debug\\cmTC_1ad24.tlog\\unsuccessfulbuild".
+          Creating "cmTC_354ce.dir\\Debug\\cmTC_354ce.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_354ce.dir\\Debug\\cmTC_354ce.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1ad24.dir\\Debug\\\\" /Fd"cmTC_1ad24.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_354ce.dir\\Debug\\\\" /Fd"cmTC_354ce.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue  -Brepro "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqevy2\\Debug\\cmTC_1ad24.exe" /INCREMENTAL /ILK:"cmTC_1ad24.dir\\Debug\\cmTC_1ad24.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-oqevy2/Debug/cmTC_1ad24.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-oqevy2/Debug/cmTC_1ad24.lib" /MACHINE:X64  /machine:x64 cmTC_1ad24.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_1ad24.vcxproj -> D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqevy2\\Debug\\cmTC_1ad24.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnodqh\\Debug\\cmTC_354ce.exe" /INCREMENTAL /ILK:"cmTC_354ce.dir\\Debug\\cmTC_354ce.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-cnodqh/Debug/cmTC_354ce.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-cnodqh/Debug/cmTC_354ce.lib" /MACHINE:X64  /machine:x64 cmTC_354ce.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_354ce.vcxproj -> D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnodqh\\Debug\\cmTC_354ce.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_1ad24.dir\\Debug\\cmTC_1ad24.tlog\\unsuccessfulbuild".
-          Touching "cmTC_1ad24.dir\\Debug\\cmTC_1ad24.tlog\\cmTC_1ad24.lastbuildstate".
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-oqevy2\\cmTC_1ad24.vcxproj" (default targets).
+          Deleting file "cmTC_354ce.dir\\Debug\\cmTC_354ce.tlog\\unsuccessfulbuild".
+          Touching "cmTC_354ce.dir\\Debug\\cmTC_354ce.tlog\\cmTC_354ce.lastbuildstate".
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cnodqh\\cmTC_354ce.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.43
+        Time Elapsed 00:00:00.42
         
       exitCode: 0
   -
@@ -1914,8 +1914,8 @@ events:
     checks:
       - "Looking for pow in m"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-aoasg0"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-aoasg0"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-280c1l"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-280c1l"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -1924,34 +1924,34 @@ events:
       variable: "WITH_HDRHISTOGRAM"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-aoasg0'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-280c1l'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c0d1a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b7233.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:01.
+        Build started 01/08/2025 18:31:18.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\cmTC_c0d1a.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\cmTC_b7233.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c0d1a.dir\\Debug\\".
+          Creating directory "cmTC_b7233.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\Debug\\".
-          Creating directory "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\Debug\\".
+          Creating directory "cmTC_b7233.dir\\Debug\\cmTC_b7233.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b7233.dir\\Debug\\cmTC_b7233.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b7233.dir\\Debug\\cmTC_b7233.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pow /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c0d1a.dir\\Debug\\\\" /Fd"cmTC_c0d1a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pow /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b7233.dir\\Debug\\\\" /Fd"cmTC_b7233.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\Debug\\cmTC_c0d1a.exe" /INCREMENTAL /ILK:"cmTC_c0d1a.dir\\Debug\\cmTC_c0d1a.ilk" /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-aoasg0/Debug/cmTC_c0d1a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-aoasg0/Debug/cmTC_c0d1a.lib" /MACHINE:X64  /machine:x64 cmTC_c0d1a.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\cmTC_c0d1a.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\cmTC_c0d1a.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\Debug\\cmTC_b7233.exe" /INCREMENTAL /ILK:"cmTC_b7233.dir\\Debug\\cmTC_b7233.ilk" /NOLOGO m.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-280c1l/Debug/cmTC_b7233.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-280c1l/Debug/cmTC_b7233.lib" /MACHINE:X64  /machine:x64 cmTC_b7233.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\cmTC_b7233.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\cmTC_b7233.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\cmTC_c0d1a.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\cmTC_b7233.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-aoasg0\\cmTC_c0d1a.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'm.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-280c1l\\cmTC_b7233.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -5394,35 +5394,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_6330b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4060b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:02.
+        Build started 01/08/2025 18:31:19.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6330b.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4060b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_6330b.dir\\Debug\\".
+          Creating directory "cmTC_4060b.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_6330b.dir\\Debug\\cmTC_6330b.tlog\\".
+          Creating directory "cmTC_4060b.dir\\Debug\\cmTC_4060b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_6330b.dir\\Debug\\cmTC_6330b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_6330b.dir\\Debug\\cmTC_6330b.tlog\\unsuccessfulbuild".
+          Creating "cmTC_4060b.dir\\Debug\\cmTC_4060b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_4060b.dir\\Debug\\cmTC_4060b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_6330b.dir\\Debug\\\\" /Fd"cmTC_6330b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4060b.dir\\Debug\\\\" /Fd"cmTC_4060b.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c"
           dlopen_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6330b.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6330b.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4060b.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4060b.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6330b.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4060b.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_6330b.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\dlopen_test.c(2,10): error C1083: Cannot open include file: 'dlfcn.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_4060b.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.25
+        Time Elapsed 00:00:00.23
         
       exitCode: 1
   -
@@ -21215,30 +21215,30 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d67cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_27d3d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:02.
+        Build started 01/08/2025 18:31:20.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d67cf.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_27d3d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d67cf.dir\\Debug\\".
+          Creating directory "cmTC_27d3d.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_d67cf.dir\\Debug\\cmTC_d67cf.tlog\\".
+          Creating directory "cmTC_27d3d.dir\\Debug\\cmTC_27d3d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d67cf.dir\\Debug\\cmTC_d67cf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d67cf.dir\\Debug\\cmTC_d67cf.tlog\\unsuccessfulbuild".
+          Creating "cmTC_27d3d.dir\\Debug\\cmTC_27d3d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_27d3d.dir\\Debug\\cmTC_27d3d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d67cf.dir\\Debug\\\\" /Fd"cmTC_d67cf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_27d3d.dir\\Debug\\\\" /Fd"cmTC_27d3d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c"
           regex_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d67cf.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d67cf.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_27d3d.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_27d3d.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d67cf.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_27d3d.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d67cf.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\regex_test.c(2,10): error C1083: Cannot open include file: 'regex.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_27d3d.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -21264,39 +21264,39 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c4522.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_3ad25.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:03.
+        Build started 01/08/2025 18:31:20.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c4522.dir\\Debug\\".
+          Creating directory "cmTC_3ad25.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_c4522.dir\\Debug\\cmTC_c4522.tlog\\".
+          Creating directory "cmTC_3ad25.dir\\Debug\\cmTC_3ad25.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c4522.dir\\Debug\\cmTC_c4522.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c4522.dir\\Debug\\cmTC_c4522.tlog\\unsuccessfulbuild".
+          Creating "cmTC_3ad25.dir\\Debug\\cmTC_3ad25.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_3ad25.dir\\Debug\\cmTC_3ad25.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c4522.dir\\Debug\\\\" /Fd"cmTC_c4522.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\strndup_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_3ad25.dir\\Debug\\\\" /Fd"cmTC_3ad25.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\strndup_test.c"
           strndup_test.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_c4522.exe" /INCREMENTAL /ILK:"cmTC_c4522.dir\\Debug\\cmTC_c4522.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_c4522.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_c4522.lib" /MACHINE:X64  /machine:x64 cmTC_c4522.dir\\Debug\\strndup_test.obj
-        strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj]
-        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_c4522.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_3ad25.exe" /INCREMENTAL /ILK:"cmTC_3ad25.dir\\Debug\\cmTC_3ad25.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_3ad25.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_3ad25.lib" /MACHINE:X64  /machine:x64 cmTC_3ad25.dir\\Debug\\strndup_test.obj
+        strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj]
+        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_3ad25.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj" (default target) (1) ->
         (Link target) -> 
-          strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj]
-          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_c4522.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c4522.vcxproj]
+          strndup_test.obj : error LNK2019: unresolved external symbol strndup referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj]
+          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_3ad25.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_3ad25.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.38
+        Time Elapsed 00:00:00.37
         
       exitCode: 1
   -
@@ -21317,39 +21317,39 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_46ba8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_09a21.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:03.
+        Build started 01/08/2025 18:31:21.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_46ba8.dir\\Debug\\".
+          Creating directory "cmTC_09a21.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_46ba8.dir\\Debug\\cmTC_46ba8.tlog\\".
+          Creating directory "cmTC_09a21.dir\\Debug\\cmTC_09a21.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_46ba8.dir\\Debug\\cmTC_46ba8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_46ba8.dir\\Debug\\cmTC_46ba8.tlog\\unsuccessfulbuild".
+          Creating "cmTC_09a21.dir\\Debug\\cmTC_09a21.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_09a21.dir\\Debug\\cmTC_09a21.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_46ba8.dir\\Debug\\\\" /Fd"cmTC_46ba8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\rand_r_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_09a21.dir\\Debug\\\\" /Fd"cmTC_09a21.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\rand_r_test.c"
           rand_r_test.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_46ba8.exe" /INCREMENTAL /ILK:"cmTC_46ba8.dir\\Debug\\cmTC_46ba8.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_46ba8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_46ba8.lib" /MACHINE:X64  /machine:x64 cmTC_46ba8.dir\\Debug\\rand_r_test.obj
-        rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj]
-        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_46ba8.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_09a21.exe" /INCREMENTAL /ILK:"cmTC_09a21.dir\\Debug\\cmTC_09a21.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_09a21.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_09a21.lib" /MACHINE:X64  /machine:x64 cmTC_09a21.dir\\Debug\\rand_r_test.obj
+        rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj]
+        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_09a21.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj" (default target) (1) ->
         (Link target) -> 
-          rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj]
-          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_46ba8.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_46ba8.vcxproj]
+          rand_r_test.obj : error LNK2019: unresolved external symbol rand_r referenced in function main [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj]
+          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_09a21.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_09a21.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.33
+        Time Elapsed 00:00:00.38
         
       exitCode: 1
   -
@@ -21370,30 +21370,30 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b840a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_864d8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:04.
+        Build started 01/08/2025 18:31:21.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b840a.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_864d8.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b840a.dir\\Debug\\".
+          Creating directory "cmTC_864d8.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_b840a.dir\\Debug\\cmTC_b840a.tlog\\".
+          Creating directory "cmTC_864d8.dir\\Debug\\cmTC_864d8.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b840a.dir\\Debug\\cmTC_b840a.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b840a.dir\\Debug\\cmTC_b840a.tlog\\unsuccessfulbuild".
+          Creating "cmTC_864d8.dir\\Debug\\cmTC_864d8.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_864d8.dir\\Debug\\cmTC_864d8.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _GNU_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b840a.dir\\Debug\\\\" /Fd"cmTC_b840a.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _GNU_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_864d8.dir\\Debug\\\\" /Fd"cmTC_864d8.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c"
           pthread_setname_gnu_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b840a.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b840a.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_864d8.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_864d8.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b840a.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_864d8.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b840a.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_gnu_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_864d8.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -21419,35 +21419,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d50b4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f6bf3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:04.
+        Build started 01/08/2025 18:31:22.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d50b4.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f6bf3.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_d50b4.dir\\Debug\\".
+          Creating directory "cmTC_f6bf3.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_d50b4.dir\\Debug\\cmTC_d50b4.tlog\\".
+          Creating directory "cmTC_f6bf3.dir\\Debug\\cmTC_f6bf3.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d50b4.dir\\Debug\\cmTC_d50b4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d50b4.dir\\Debug\\cmTC_d50b4.tlog\\unsuccessfulbuild".
+          Creating "cmTC_f6bf3.dir\\Debug\\cmTC_f6bf3.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_f6bf3.dir\\Debug\\cmTC_f6bf3.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _DARWIN_C_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_d50b4.dir\\Debug\\\\" /Fd"cmTC_d50b4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D _DARWIN_C_SOURCE /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_f6bf3.dir\\Debug\\\\" /Fd"cmTC_f6bf3.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c"
           pthread_setname_darwin_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d50b4.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d50b4.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f6bf3.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f6bf3.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d50b4.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f6bf3.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_d50b4.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_darwin_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_f6bf3.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.20
+        Time Elapsed 00:00:00.21
         
       exitCode: 1
   -
@@ -21468,35 +21468,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e54c1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_25555.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:05.
+        Build started 01/08/2025 18:31:22.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e54c1.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_25555.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e54c1.dir\\Debug\\".
+          Creating directory "cmTC_25555.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_e54c1.dir\\Debug\\cmTC_e54c1.tlog\\".
+          Creating directory "cmTC_25555.dir\\Debug\\cmTC_25555.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e54c1.dir\\Debug\\cmTC_e54c1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e54c1.dir\\Debug\\cmTC_e54c1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_25555.dir\\Debug\\cmTC_25555.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_25555.dir\\Debug\\cmTC_25555.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e54c1.dir\\Debug\\\\" /Fd"cmTC_e54c1.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_25555.dir\\Debug\\\\" /Fd"cmTC_25555.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c"
           pthread_setname_freebsd_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e54c1.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e54c1.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_25555.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_25555.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e54c1.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_25555.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e54c1.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\pthread_setname_freebsd_test.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_25555.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.23
+        Time Elapsed 00:00:00.22
         
       exitCode: 1
   -
@@ -21517,30 +21517,30 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_462d7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_1e948.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:05.
+        Build started 01/08/2025 18:31:22.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_462d7.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_1e948.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_462d7.dir\\Debug\\".
+          Creating directory "cmTC_1e948.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_462d7.dir\\Debug\\cmTC_462d7.tlog\\".
+          Creating directory "cmTC_1e948.dir\\Debug\\cmTC_1e948.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_462d7.dir\\Debug\\cmTC_462d7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_462d7.dir\\Debug\\cmTC_462d7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1e948.dir\\Debug\\cmTC_1e948.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1e948.dir\\Debug\\cmTC_1e948.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_462d7.dir\\Debug\\\\" /Fd"cmTC_462d7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1e948.dir\\Debug\\\\" /Fd"cmTC_1e948.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
           atomic_32_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_462d7.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_462d7.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_1e948.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_1e948.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_462d7.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_1e948.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_462d7.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_1e948.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -21566,35 +21566,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_07987.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bc9a9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:05.
+        Build started 01/08/2025 18:31:23.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_07987.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bc9a9.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_07987.dir\\Debug\\".
+          Creating directory "cmTC_bc9a9.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_07987.dir\\Debug\\cmTC_07987.tlog\\".
+          Creating directory "cmTC_bc9a9.dir\\Debug\\cmTC_bc9a9.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_07987.dir\\Debug\\cmTC_07987.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_07987.dir\\Debug\\cmTC_07987.tlog\\unsuccessfulbuild".
+          Creating "cmTC_bc9a9.dir\\Debug\\cmTC_bc9a9.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bc9a9.dir\\Debug\\cmTC_bc9a9.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_07987.dir\\Debug\\\\" /Fd"cmTC_07987.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bc9a9.dir\\Debug\\\\" /Fd"cmTC_bc9a9.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c"
           atomic_32_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_07987.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_07987.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bc9a9.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bc9a9.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_07987.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bc9a9.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_07987.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_32_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bc9a9.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.20
+        Time Elapsed 00:00:00.21
         
       exitCode: 1
   -
@@ -21615,39 +21615,39 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9ccd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_74976.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:06.
+        Build started 01/08/2025 18:31:23.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_9ccd5.dir\\Debug\\".
+          Creating directory "cmTC_74976.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_9ccd5.dir\\Debug\\cmTC_9ccd5.tlog\\".
+          Creating directory "cmTC_74976.dir\\Debug\\cmTC_74976.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_9ccd5.dir\\Debug\\cmTC_9ccd5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_9ccd5.dir\\Debug\\cmTC_9ccd5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_74976.dir\\Debug\\cmTC_74976.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_74976.dir\\Debug\\cmTC_74976.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_9ccd5.dir\\Debug\\\\" /Fd"cmTC_9ccd5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_32_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_74976.dir\\Debug\\\\" /Fd"cmTC_74976.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_32_test.c"
           sync_32_test.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9ccd5.exe" /INCREMENTAL /ILK:"cmTC_9ccd5.dir\\Debug\\cmTC_9ccd5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_9ccd5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_9ccd5.lib" /MACHINE:X64  /machine:x64 cmTC_9ccd5.dir\\Debug\\sync_32_test.obj
-        sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj]
-        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9ccd5.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_74976.exe" /INCREMENTAL /ILK:"cmTC_74976.dir\\Debug\\cmTC_74976.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_74976.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_74976.lib" /MACHINE:X64  /machine:x64 cmTC_74976.dir\\Debug\\sync_32_test.obj
+        sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj]
+        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_74976.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj" (default target) (1) ->
         (Link target) -> 
-          sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj]
-          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_9ccd5.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_9ccd5.vcxproj]
+          sync_32_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj]
+          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_74976.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_74976.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.31
+        Time Elapsed 00:00:00.29
         
       exitCode: 1
   -
@@ -21668,35 +21668,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_29405.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e6580.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:06.
+        Build started 01/08/2025 18:31:23.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_29405.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e6580.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_29405.dir\\Debug\\".
+          Creating directory "cmTC_e6580.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_29405.dir\\Debug\\cmTC_29405.tlog\\".
+          Creating directory "cmTC_e6580.dir\\Debug\\cmTC_e6580.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_29405.dir\\Debug\\cmTC_29405.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_29405.dir\\Debug\\cmTC_29405.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e6580.dir\\Debug\\cmTC_e6580.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e6580.dir\\Debug\\cmTC_e6580.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_29405.dir\\Debug\\\\" /Fd"cmTC_29405.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e6580.dir\\Debug\\\\" /Fd"cmTC_e6580.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
           atomic_64_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_29405.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_29405.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e6580.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e6580.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_29405.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e6580.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_29405.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_e6580.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.23
+        Time Elapsed 00:00:00.20
         
       exitCode: 1
   -
@@ -21717,35 +21717,35 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_12f58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b3f1f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:06.
+        Build started 01/08/2025 18:31:24.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_12f58.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b3f1f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_12f58.dir\\Debug\\".
+          Creating directory "cmTC_b3f1f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_12f58.dir\\Debug\\cmTC_12f58.tlog\\".
+          Creating directory "cmTC_b3f1f.dir\\Debug\\cmTC_b3f1f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_12f58.dir\\Debug\\cmTC_12f58.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_12f58.dir\\Debug\\cmTC_12f58.tlog\\unsuccessfulbuild".
+          Creating "cmTC_b3f1f.dir\\Debug\\cmTC_b3f1f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_b3f1f.dir\\Debug\\cmTC_b3f1f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_12f58.dir\\Debug\\\\" /Fd"cmTC_12f58.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b3f1f.dir\\Debug\\\\" /Fd"cmTC_b3f1f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c"
           atomic_64_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_12f58.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_12f58.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b3f1f.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b3f1f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_12f58.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b3f1f.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_12f58.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\atomic_64_test.c(4,42): error C2065: '__ATOMIC_SEQ_CST': undeclared identifier [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_b3f1f.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.22
+        Time Elapsed 00:00:00.23
         
       exitCode: 1
   -
@@ -21766,39 +21766,39 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33811.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ffe7f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:07.
+        Build started 01/08/2025 18:31:24.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_33811.dir\\Debug\\".
+          Creating directory "cmTC_ffe7f.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_33811.dir\\Debug\\cmTC_33811.tlog\\".
+          Creating directory "cmTC_ffe7f.dir\\Debug\\cmTC_ffe7f.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_33811.dir\\Debug\\cmTC_33811.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_33811.dir\\Debug\\cmTC_33811.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ffe7f.dir\\Debug\\cmTC_ffe7f.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ffe7f.dir\\Debug\\cmTC_ffe7f.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_33811.dir\\Debug\\\\" /Fd"cmTC_33811.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_64_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ffe7f.dir\\Debug\\\\" /Fd"cmTC_ffe7f.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\sync_64_test.c"
           sync_64_test.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_33811.exe" /INCREMENTAL /ILK:"cmTC_33811.dir\\Debug\\cmTC_33811.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_33811.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_33811.lib" /MACHINE:X64  /machine:x64 cmTC_33811.dir\\Debug\\sync_64_test.obj
-        sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj]
-        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_33811.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ffe7f.exe" /INCREMENTAL /ILK:"cmTC_ffe7f.dir\\Debug\\cmTC_ffe7f.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_ffe7f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp/Debug/cmTC_ffe7f.lib" /MACHINE:X64  /machine:x64 cmTC_ffe7f.dir\\Debug\\sync_64_test.obj
+        sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj]
+        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ffe7f.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj" (default target) (1) ->
         (Link target) -> 
-          sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj]
-          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_33811.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_33811.vcxproj]
+          sync_64_test.obj : error LNK2019: unresolved external symbol __sync_add_and_fetch referenced in function foo [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj]
+          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\cmTC_ffe7f.exe : fatal error LNK1120: 1 unresolved externals [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ffe7f.vcxproj]
         
             0 Warning(s)
             2 Error(s)
         
-        Time Elapsed 00:00:00.30
+        Time Elapsed 00:00:00.34
         
       exitCode: 1
   -
@@ -21819,61 +21819,61 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c71aa.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_bfac5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:07.
+        Build started 01/08/2025 18:31:25.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_c71aa.dir\\Debug\\".
+          Creating directory "cmTC_bfac5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_c71aa.dir\\Debug\\cmTC_c71aa.tlog\\".
+          Creating directory "cmTC_bfac5.dir\\Debug\\cmTC_bfac5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_c71aa.dir\\Debug\\cmTC_c71aa.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_c71aa.dir\\Debug\\cmTC_c71aa.tlog\\unsuccessfulbuild".
+          Creating "cmTC_bfac5.dir\\Debug\\cmTC_bfac5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bfac5.dir\\Debug\\cmTC_bfac5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c71aa.dir\\Debug\\\\" /Fd"cmTC_c71aa.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\c11threads_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bfac5.dir\\Debug\\\\" /Fd"cmTC_bfac5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\c11threads_test.c"
           c11threads_test.c
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,1): error C2054: expected '(' to follow '_Noreturn' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,1): error C2054: expected '(' to follow '_Noreturn' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
           (compiling source file 'C:/Users/raulk/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rdkafka-sys-4.9.0+2.10.0/librdkafka/packaging/cmake/try_compile/c11threads_test.c')
           
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj" (default targets) -- FAILED.
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,1): error C2054: expected '(' to follow '_Noreturn' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_c71aa.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,1): error C2054: expected '(' to follow '_Noreturn' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(101,24): error C2085: 'thrd_exit': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(104,13): error C2085: 'thrd_join': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(105,13): error C2085: '_thrd_sleep32': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(107,13): error C2085: '_thrd_sleep64': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,27): error C2085: 'thrd_sleep': not in formal parameter list [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\include\\threads.h(116,99): error C2143: syntax error: missing ';' before '{' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_bfac5.vcxproj]
         
             0 Warning(s)
             7 Error(s)
         
-        Time Elapsed 00:00:00.20
+        Time Elapsed 00:00:00.21
         
       exitCode: 1
   -
@@ -21894,34 +21894,34 @@ events:
       stdout: |
         Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/try_compile/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_03622.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ef9cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:08.
+        Build started 01/08/2025 18:31:25.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_03622.dir\\Debug\\".
+          Creating directory "cmTC_ef9cf.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
           Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\Debug\\".
-          Creating directory "cmTC_03622.dir\\Debug\\cmTC_03622.tlog\\".
+          Creating directory "cmTC_ef9cf.dir\\Debug\\cmTC_ef9cf.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_03622.dir\\Debug\\cmTC_03622.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_03622.dir\\Debug\\cmTC_03622.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ef9cf.dir\\Debug\\cmTC_ef9cf.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ef9cf.dir\\Debug\\cmTC_ef9cf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_03622.dir\\Debug\\\\" /Fd"cmTC_03622.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_ef9cf.dir\\Debug\\\\" /Fd"cmTC_ef9cf.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c"
           crc32c_hw_test.c
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
-        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
+        C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
-          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_03622.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(10,25): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(14,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
+          C:\\Users\\raulk\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\rdkafka-sys-4.9.0+2.10.0\\librdkafka\\packaging\\cmake\\try_compile\\crc32c_hw_test.c(22,13): error C2143: syntax error: missing ')' before ':' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\try_compile\\CMakeFiles\\CMakeTmp\\cmTC_ef9cf.vcxproj]
         
             0 Warning(s)
             3 Error(s)
@@ -21940,8 +21940,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-km3pol"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-km3pol"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-815e24"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-815e24"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -21951,32 +21951,32 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-km3pol'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-815e24'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b0dc7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_02c58.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:08.
+        Build started 01/08/2025 18:31:25.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\cmTC_b0dc7.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\cmTC_02c58.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_b0dc7.dir\\Debug\\".
+          Creating directory "cmTC_02c58.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\Debug\\".
-          Creating directory "cmTC_b0dc7.dir\\Debug\\cmTC_b0dc7.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\Debug\\".
+          Creating directory "cmTC_02c58.dir\\Debug\\cmTC_02c58.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_b0dc7.dir\\Debug\\cmTC_b0dc7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_b0dc7.dir\\Debug\\cmTC_b0dc7.tlog\\unsuccessfulbuild".
+          Creating "cmTC_02c58.dir\\Debug\\cmTC_02c58.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_02c58.dir\\Debug\\cmTC_02c58.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_b0dc7.dir\\Debug\\\\" /Fd"cmTC_b0dc7.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_02c58.dir\\Debug\\\\" /Fd"cmTC_02c58.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\src.c"
           src.c
-        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\cmTC_b0dc7.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\cmTC_b0dc7.vcxproj" (default targets) -- FAILED.
+        D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\cmTC_02c58.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\cmTC_02c58.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\cmTC_b0dc7.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\cmTC_02c58.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-km3pol\\cmTC_b0dc7.vcxproj]
+          D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-815e24\\cmTC_02c58.vcxproj]
         
             0 Warning(s)
             1 Error(s)
@@ -21994,8 +21994,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-bwfhph"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-bwfhph"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-f8dcr1"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-f8dcr1"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -22005,39 +22005,39 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-bwfhph'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-f8dcr1'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e174d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_49fc5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:08.
+        Build started 01/08/2025 18:31:26.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\cmTC_e174d.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\cmTC_49fc5.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_e174d.dir\\Debug\\".
+          Creating directory "cmTC_49fc5.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\Debug\\".
-          Creating directory "cmTC_e174d.dir\\Debug\\cmTC_e174d.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\Debug\\".
+          Creating directory "cmTC_49fc5.dir\\Debug\\cmTC_49fc5.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_e174d.dir\\Debug\\cmTC_e174d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_e174d.dir\\Debug\\cmTC_e174d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_49fc5.dir\\Debug\\cmTC_49fc5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_49fc5.dir\\Debug\\cmTC_49fc5.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_e174d.dir\\Debug\\\\" /Fd"cmTC_e174d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_49fc5.dir\\Debug\\\\" /Fd"cmTC_49fc5.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\Debug\\cmTC_e174d.exe" /INCREMENTAL /ILK:"cmTC_e174d.dir\\Debug\\cmTC_e174d.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-bwfhph/Debug/cmTC_e174d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-bwfhph/Debug/cmTC_e174d.lib" /MACHINE:X64  /machine:x64 cmTC_e174d.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\cmTC_e174d.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\cmTC_e174d.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\Debug\\cmTC_49fc5.exe" /INCREMENTAL /ILK:"cmTC_49fc5.dir\\Debug\\cmTC_49fc5.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-f8dcr1/Debug/cmTC_49fc5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-f8dcr1/Debug/cmTC_49fc5.lib" /MACHINE:X64  /machine:x64 cmTC_49fc5.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\cmTC_49fc5.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\cmTC_49fc5.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\cmTC_e174d.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\cmTC_49fc5.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-bwfhph\\cmTC_e174d.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-f8dcr1\\cmTC_49fc5.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.26
+        Time Elapsed 00:00:00.25
         
       exitCode: 1
   -
@@ -22050,8 +22050,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-nutezy"
-      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-nutezy"
+      source: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-c94xvt"
+      binary: "D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-c94xvt"
     cmakeVariables:
       CMAKE_C_FLAGS: " -nologo -MD -Brepro"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
@@ -22061,34 +22061,34 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-nutezy'
+        Change Dir: 'D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-c94xvt'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4cf3c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_c6499.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.13.9+e0f243f1e for .NET Framework
-        Build started 31/07/2025 18:39:09.
+        Build started 01/08/2025 18:31:26.
         
-        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\cmTC_4cf3c.vcxproj" on node 1 (default targets).
+        Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\cmTC_c6499.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_4cf3c.dir\\Debug\\".
+          Creating directory "cmTC_c6499.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\Debug\\".
-          Creating directory "cmTC_4cf3c.dir\\Debug\\cmTC_4cf3c.tlog\\".
+          Creating directory "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\Debug\\".
+          Creating directory "cmTC_c6499.dir\\Debug\\cmTC_c6499.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_4cf3c.dir\\Debug\\cmTC_4cf3c.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_4cf3c.dir\\Debug\\cmTC_4cf3c.tlog\\unsuccessfulbuild".
+          Creating "cmTC_c6499.dir\\Debug\\cmTC_c6499.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_c6499.dir\\Debug\\cmTC_c6499.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_4cf3c.dir\\Debug\\\\" /Fd"cmTC_4cf3c.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Fo"cmTC_c6499.dir\\Debug\\\\" /Fd"cmTC_c6499.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\Debug\\cmTC_4cf3c.exe" /INCREMENTAL /ILK:"cmTC_4cf3c.dir\\Debug\\cmTC_4cf3c.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-nutezy/Debug/cmTC_4cf3c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-nutezy/Debug/cmTC_4cf3c.lib" /MACHINE:X64  /machine:x64 cmTC_4cf3c.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\cmTC_4cf3c.vcxproj]
-        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\cmTC_4cf3c.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /OUT:"D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\Debug\\cmTC_c6499.exe" /INCREMENTAL /ILK:"cmTC_c6499.dir\\Debug\\cmTC_c6499.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-c94xvt/Debug/cmTC_c6499.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"D:/MSc Computer Science/Summer Project/new method of dev gpt/target/debug/build/rdkafka-sys-aeabac192401ce30/out/build/CMakeFiles/CMakeScratch/TryCompile-c94xvt/Debug/cmTC_c6499.lib" /MACHINE:X64  /machine:x64 cmTC_c6499.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\cmTC_c6499.vcxproj]
+        Done Building Project "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\cmTC_c6499.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\cmTC_4cf3c.vcxproj" (default target) (1) ->
+        "D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\cmTC_c6499.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nutezy\\cmTC_4cf3c.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [D:\\MSc Computer Science\\Summer Project\\new method of dev gpt\\target\\debug\\build\\rdkafka-sys-aeabac192401ce30\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c94xvt\\cmTC_c6499.vcxproj]
         
             0 Warning(s)
             1 Error(s)
