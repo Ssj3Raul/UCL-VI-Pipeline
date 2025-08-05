@@ -39,7 +39,11 @@ services:
     image: bitnami/kafka:latest
     depends_on:
       - kafka
-    entrypoint: [ "sh", "-c", "sleep 15 && /opt/bitnami/kafka/bin/kafka-topics.sh --create --if-not-exists --topic test-topic --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1" ]
+    entrypoint: [ "sh", "-c", "apk add --no-cache bash && \
+      wget -qO- https://raw.githubusercontent.com/vishnubob/wait-for-it/master/wait-for-it.sh > /wait-for-it.sh && \
+      chmod +x /wait-for-it.sh && \
+      /wait-for-it.sh kafka:9092 --timeout=60 -- \
+      /opt/bitnami/kafka/bin/kafka-topics.sh --create --if-not-exists --topic test-topic --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1" ]
 
 volumes:
   pgdata:
