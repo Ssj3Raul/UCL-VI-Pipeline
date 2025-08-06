@@ -50,10 +50,19 @@ docker-compose up -d postgres zookeeper kafka
 
 ```bash
 # Create database schema and sample sensor
-docker exec -it iot-postgres psql -U vi_user vi_graphs -c "
-CREATE TABLE IF NOT EXISTS sensor (id UUID PRIMARY KEY, identifier TEXT NOT NULL, measuring TEXT NOT NULL, unit TEXT);
-INSERT INTO sensor (id, identifier, measuring, unit) VALUES ('11111111-1111-1111-1111-111111111111', 'Room101', 'temperature', 'C') ON CONFLICT DO NOTHING;
-"
+docker cp schema.sql iot-postgres:/schema.sql
+
+docker exec -it iot-postgres psql -U vi_user vi_graphs
+
+# Inside psql prompt:
+\i /schema.sql
+
+SELECT * FROM sensor
+INSERT INTO sensor (id, identifier, measuring, unit)
+VALUES ('11111111-1111-1111-1111-111111111111', 'Room101', 'temperature', 'C');
+
+# Then exit psql:
+\q
 ```
 
 ### 4. Build Applications
