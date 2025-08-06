@@ -35,7 +35,7 @@ cd robust-iot-pipeline
 docker-compose up -d
 
 ###3. Create the Database Schema
-
+docker cp schema.sql iot-postgres:/schema.sql
 docker exec -it iot-postgres psql -U vi_user vi_graphs
 # Inside psql prompt:
 \i /schema.sql
