@@ -30,7 +30,7 @@ services:
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
-      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://localhost:9092"
+      KAFKA_ADVERTISED_LISTENERS: "PLAINTEXT://kafka:9092"
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
     ports:
       - "9092:9092"
@@ -44,6 +44,29 @@ services:
       chmod +x /wait-for-it.sh && \
       /wait-for-it.sh kafka:9092 --timeout=60 -- \
       /opt/bitnami/kafka/bin/kafka-topics.sh --create --if-not-exists --topic test-topic --bootstrap-server kafka:9092 --partitions 1 --replication-factor 1" ]
+  
+  collector:
+    build:
+      context: .
+      dockerfile: collector/Dockerfile
+    environment:
+      KAFKA_BROKER: kafka:9092
+      MQTT_HOST: test.mosquitto.org
+      MQTT_TOPIC: test/vi-sample
+    depends_on:
+      - kafka
+
+  processor:
+    build:
+      context: .
+      dockerfile: processor/Dockerfile
+    environment:
+      KAFKA_BROKER: kafka:9092
+      KAFKA_TOPIC: test-topic
+      DATABASE_URL: postgres://vi_user:vi_pass@postgres:5432/vi_graphs
+    depends_on:
+      - kafka
+      - postgres
 
 volumes:
   pgdata:

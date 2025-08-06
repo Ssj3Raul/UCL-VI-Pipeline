@@ -1,12 +1,11 @@
 mod normalisation;
-use crate::normalisation::{NormalisedReading, normalise_reading};
+use crate::normalisation::normalise_reading;
 use rdkafka::config::ClientConfig;
 use rdkafka::consumer::{Consumer, StreamConsumer};
 use rdkafka::Message;
-use sqlx::{PgPool, query};
+use sqlx::{PgPool, Row};
 use std::env;
 use uuid::Uuid;
-use chrono::{DateTime, Utc};
 
 #[tokio::main]
 async fn main() -> anyhow::Result<()> {
@@ -16,7 +15,16 @@ async fn main() -> anyhow::Result<()> {
     let kafka_topic = env::var("KAFKA_TOPIC").unwrap_or("test-topic".to_string());
     let db_url = env::var("DATABASE_URL").expect("DATABASE_URL must be set in .env");
 
-    let db = PgPool::connect(&db_url).await?;
+    // Add retry logic for database connection
+    let db = loop {
+        match PgPool::connect(&db_url).await {
+            Ok(pool) => break pool,
+            Err(e) => {
+                eprintln!("Failed to connect to database: {}. Retrying in 5 seconds...", e);
+                tokio::time::sleep(tokio::time::Duration::from_secs(5)).await;
+            }
+        }
+    };
 
     let consumer: StreamConsumer = ClientConfig::new()
         .set("group.id", "test-group")
@@ -42,27 +50,27 @@ async fn main() -> anyhow::Result<()> {
                             println!("Normalised reading: {:?}", reading);
 
                             // Lookup sensorId in the sensor table
-                            let sensor_row = sqlx::query!(
-                                "SELECT id FROM sensor WHERE identifier = $1 AND measuring = $2",
-                                &reading.identifier,
-                                &reading.measuring
+                            let sensor_row = sqlx::query(
+                                "SELECT id FROM sensor WHERE identifier = $1 AND measuring = $2"
                             )
+                            .bind(&reading.identifier)
+                            .bind(&reading.measuring)
                             .fetch_optional(&db)
                             .await?;
 
                             if let Some(record) = sensor_row {
-                                let sensor_id = record.id;
+                                let sensor_id: Uuid = record.get("id");
                                 let val = reading.value.unwrap_or(0.0);
 
-                                let res = query!(
+                                let res = sqlx::query(
                                     "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)
-                                     VALUES ($1, $2, $3, $4, $5, NOW())",
-                                    Uuid::new_v4(),
-                                    sensor_id,
-                                    reading.timestamp,
-                                    val, // rawValue
-                                    val  // value
+                                     VALUES ($1, $2, $3, $4, $5, NOW())"
                                 )
+                                .bind(Uuid::new_v4())
+                                .bind(sensor_id)
+                                .bind(reading.timestamp)
+                                .bind(val) // rawValue
+                                .bind(val)  // value
                                 .execute(&db)
                                 .await;
 

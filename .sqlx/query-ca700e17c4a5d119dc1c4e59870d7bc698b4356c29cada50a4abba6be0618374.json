@@ -1,0 +1,18 @@
+{
+  "db_name": "PostgreSQL",
+  "query": "INSERT INTO reading (id, sensorId, timestamp, rawValue, value, createdAt)\n                                     VALUES ($1, $2, $3, $4, $5, NOW())",
+  "describe": {
+    "columns": [],
+    "parameters": {
+      "Left": [
+        "Uuid",
+        "Uuid",
+        "Timestamptz",
+        "Float8",
+        "Float8"
+      ]
+    },
+    "nullable": []
+  },
+  "hash": "ca700e17c4a5d119dc1c4e59870d7bc698b4356c29cada50a4abba6be0618374"
+}
